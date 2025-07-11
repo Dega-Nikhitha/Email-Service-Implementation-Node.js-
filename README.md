@@ -15,3 +15,15 @@ This project simulates a robust email sending service using Node.js. It supports
 
 ## 🏗️ Project Structure
 
+├── index.js # Entry point (Express server)
+├── providers/
+│ ├── MockProviderA.js # Simulates email provider A
+│ └── MockProviderB.js # Simulates email provider B
+├── services/
+│ └── EmailService.js # Main business logic
+├── utils/
+│ ├── RateLimiter.js # Controls email rate limits
+│ └── backoff.js # Handles exponential backoff
+├── package.json # Project dependencies and config
+└── README.md # Documentation
+
