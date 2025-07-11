@@ -27,3 +27,26 @@ This project simulates a robust email sending service using Node.js. It supports
 ├── package.json # Project dependencies and config
 └── README.md # Documentation
 
+
+---
+
+## 📦 Requirements
+
+- Node.js (v18+ recommended)
+- npm
+
+---
+
+## 🛠️ Installation & Run
+
+```bash
+# Clone the repo (or download manually)
+cd <your-folder-name>
+
+# Install dependencies
+npm install
+
+# Start the server
+npm start
+
+
